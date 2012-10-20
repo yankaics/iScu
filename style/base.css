@@ -1,0 +1,182 @@
+/*  Color
+  #73C9B4 #89D0BC #AADBC6 #79BDA8
+  #D5B49F #EF8575 #F7695B
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Font size */
+h1 {font-size: 25px;}
+h2 {font-size: 23px;}
+h3 {font-size: 21px;}
+h4 {font-size: 19px;}
+h5 {font-size: 17px;}
+h6 {font-size: 15px;}
+
+body {
+  color: #484848;
+  font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+  background: url(../image/siding-tiled-sm.png) repeat-y;
+}
+
+/* Navscroll */
+#navscroll {
+  position: fixed;
+  bottom: 80px;
+  z-index: 997;
+}
+#navscroll img {
+  margin-left: 20px;
+  background-color: #EEE;
+}
+#navscroll img:hover {
+  background-color: #AAA;
+}
+
+
+/* Navigation */
+#navigation a#navigation-ribbon {
+  top: -14px;
+  margin-left: 20px;
+  position: absolute;
+}
+#navigation a#navigation-ribbon:hover,
+#navigation a#navigation-ribbon:focus {
+  top: -8px;
+}
+#navigation a#navigation-ribbon:active {
+  top: -6px;
+}
+#navigation ul {
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 64px;
+  list-style-type: none;
+}
+#navigation ul li {
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+#navigation ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 2px 4px 2px 4px;
+  color: #999;
+}
+#navigation ul li a:hover{
+  background-color: #AADBC6;
+  padding: 2px 4px 2px 4px;
+  color: #F7F7F7;
+}
+
+/* Main */
+div#main {
+  margin-top: 44px;
+}
+div#main ul {
+  margin-bottom: 13px;
+  padding-bottom: 13px;
+}
+div#main ul li {
+  display: block;
+  padding-bottom: 13px;
+  border-bottom: 1px dotted #EEE;
+  margin-bottom: 13px;
+}
+div#main p.list-name {
+  background: #CCC;
+  padding: 3px 4px 4px 5px;
+  width: 42px;
+  display: block;
+  font-size: 19px;
+  letter-spacing: 2px;
+  color: white;
+  margin-left: -68px;
+  margin-bottom: -53px;
+}
+div.content a.content-title {
+  text-decoration: none;
+  font-size: 16px;
+  color: #EF8575;
+}
+div.content p.content-time {
+  float: right;
+  padding-top: 6px;
+  font-size: 11px;
+  color: #999;
+}
+div.content p.content-hidden {
+  text-indent: 2em;
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #444;
+}
+div.content div.hidden {
+  margin-bottom: 8px;
+}
+div.content div.showmore {
+  float: right;
+}
+div.content div.showmore a {
+  color: #79BDA8;
+  font-size: 14px;
+  text-decoration: none;
+}
+div.content div.showmore a:hover,
+div.content div.showmore span:hover {
+  text-decoration: underline;
+  color: #F7695B;
+}
+div.content div.showmore a:visited,
+div.content div.showmore span:visited {
+  color: #79BDA8;
+  text-decoration: none;
+}
+
+/* clearfix */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; visibility: hidden; } 
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/* Tips */
+#xl {
+  color: red;
+  font-size: 23px;
+  padding: 10px;
+  margin: 0;
+  border-bottom: 2px solid gray;
+  z-index: 999;
+  background: yellow;
+  color: black;
+  text-align: center;
+}
+
+/* The bouncing box */
+#box{
+  z-index: 998;
+  background: url('../image/box_bg.jpg') repeat-x center top #fcfcfc;
+  height: 115px;
+  padding: 20px;
+  margin-top: -10px;
+  padding-top: 30px;
+  width: 300px;
+  border: 1px solid #fcfcfc;
+  color: #73C9B4;
+  line-height: 24px;
+}
+#box p {
+  font-size:14px;
+}
+#box ul li {
+  line-height: 20px;
+  text-indent: 2em;
+  font-size:12px;
+}
+#box {
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+}
