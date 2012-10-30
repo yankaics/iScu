@@ -1,0 +1,12 @@
+appname: iscu
+version: 1
+accesskey: 54yml204n3
+cron:
+- description: crawls the web
+	url: cron/url.php
+	schedule: every day of month 12:00
+	timezone: Beijing
+- description: send mail
+	url: cron/sendMail.php
+	schedule: 5 12 */3 * 4
+	timezone: Beijing
