@@ -21,5 +21,5 @@ TODO
 
 License
 -------
-It is licensed under GNU Lesser General Public License.
-You may get a copy of the GNU Lesser General Public License from http://www.gnu.org/licenses/lgpl.txt
+Simplify-Google-Reader is licensed under General Public License v3.0. 
+You may get a copy of the GNU Lesser General Public License from <http://www.gnu.org/licenses/gpl.html>
