@@ -12,11 +12,12 @@
 * **[川大联播](http://iscu.sinaapp.com/)**
 * **[川大联播 手机版](http://iscu.sinaapp.com/m)**
 
-In the future
+TODO
 -------------
 订阅新闻
 > 添加各学院网站，用户可自定义首页显示网站通知。
 
+（此功能基本没戏了，完全不想碰PHP，这个项目就这样搁置了吧。）
 
 License
 -------
