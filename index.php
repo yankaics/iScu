@@ -152,7 +152,11 @@ $i = 1;
   <p>操作说明:</p>
   <ul>
     <li>点击文章标题可查看全文；</li>
-    <li>点击文章末尾“查看原文”可跳转至原网页；</li>
+    <li>点击文章末尾“查看原文”可跳转至原网页。</li>
+  </ul>
+  <p>Other:</p>
+  <ul>
+    <li>联系作者<a href="http://kshiftlv.github.com">@kshift</a> or Fork me on <a href="https://github.com/kshiftlv/iScu">Github</a>。</li>
   </ul>
 </div>
   <script type="text/javascript">
