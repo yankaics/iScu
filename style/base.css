@@ -16,7 +16,7 @@ h6 {font-size: 15px;}
 
 body {
   color: #484848;
-  font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+  font-family:Arial,Lucida,Verdana,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;
   background: url(../image/siding-tiled-sm.png) repeat-y;
 }
 
@@ -160,7 +160,7 @@ div.content div.showmore span:visited {
   background: url('../image/box_bg.jpg') repeat-x center top #fcfcfc;
   height: 115px;
   padding: 20px;
-  margin-top: -10px;
+  margin-top: -18px;
   padding-top: 30px;
   width: 330px;
   border: 1px solid #fcfcfc;
